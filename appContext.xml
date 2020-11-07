@@ -9,9 +9,9 @@
 
 
 <bean id="meal" class="food.meal">
-    <property name="fruit" ref="fruit"></property>
-    <property name="grain" ref="grain"></property>
-    <property name="dairy" ref="dairy"></property>
-    <property name="veg" ref="vegetable"></property>
+    <constructor-arg index="0" ref="fruit" />
+    <constructor-arg index="1" ref="dairy" />
+    <constructor-arg index="2" ref="grain" />
+    <constructor-arg index="3" ref="vegetable" />
 </bean>
 </beans>
