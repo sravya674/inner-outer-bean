@@ -14,4 +14,19 @@
     <constructor-arg index="2" ref="grain" />
     <constructor-arg index="3" ref="vegetable" />
 </bean>
+
+<bean id="mealOuterBean" class="food.meal">
+<property name="fruit">
+<bean id="appleInnerBean" class="food.Apple">
+ 	<property name="name" value="apple"/>
+ 	<property name="description" value="I'm an Apple.">	
+ 	</property>
+
+</bean>
+
+
+</property>
+
+</bean>
+
 </beans>

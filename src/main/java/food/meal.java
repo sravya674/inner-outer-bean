@@ -16,6 +16,35 @@ public class meal {
 		this.grain=g;
 		this.veg=v;
 	}
+	public vegetable getVeg() {
+		return veg;
+	}
+	public void setVeg(vegetable veg) {
+		this.veg = veg;
+	}
+	public grain getGrain() {
+		return grain;
+	}
+	public void setGrain(grain grain) {
+		this.grain = grain;
+	}
+
+	
+	public Dairy getDairy() {
+		return dairy;
+	}
+	public void setDairy(Dairy dairy) {
+		this.dairy = dairy;
+	}
+
+	
+	public fruit getFruit() {
+		return fruit;
+	}
+
+	public void setFruit(fruit fruit) {
+		this.fruit = fruit;
+	}
 	
 	public String whatsInThisMeal()
 	{
